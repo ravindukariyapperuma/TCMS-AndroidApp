@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/calen"
+        android:icon="@drawable/ic_home"
+        app:cnb_backgroundColor = "#84D13C"
+        app:cnb_iconColor ="#ffffff"
+        app:cnb_textColor ="#ffffff"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/people"
+        android:icon="@drawable/ic_people"
+        app:cnb_backgroundColor = "#84D13C"
+        app:cnb_iconColor ="#ffffff"
+        app:cnb_textColor ="#ffffff"
+        android:title="People" />
+    <item
+        android:id="@+id/camera"
+        android:icon="@drawable/ic_cam"
+        app:cnb_backgroundColor = "#84D13C"
+        app:cnb_iconColor ="#ffffff"
+        app:cnb_textColor ="#ffffff"
+        android:title="Scan" />
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/ic_notify"
+        app:cnb_backgroundColor = "#84D13C"
+        app:cnb_iconColor ="#ffffff"
+        app:cnb_textColor ="#ffffff"
+        android:title="Notifications" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_profile"
+        app:cnb_backgroundColor = "#84D13C"
+        app:cnb_iconColor ="#ffffff"
+        app:cnb_textColor ="#ffffff"
+        android:title="Profile" />
+</menu>
