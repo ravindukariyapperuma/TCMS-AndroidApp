@@ -1,11 +1,11 @@
 package com.example.tcmsapp;
 
-import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
-import java.util.Objects;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class WelcomeScreen extends AppCompatActivity {
 
