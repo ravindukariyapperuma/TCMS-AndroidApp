@@ -1,19 +1,22 @@
 package com.example.tcmsapp;
 
 import android.app.DatePickerDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageView;
-
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -44,6 +47,26 @@ public class addStudentFragment extends Fragment {
             }
         });
 
+        ImageView backbtn = view.findViewById(R.id.backBtn);
+        ImageView menubtn = view.findViewById(R.id.menubtn);
+        backbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+                fragmentTransaction.replace(R.id.contrainer,new ActivestudentList());
+
+                fragmentTransaction.commit();
+            }
+        });
+        menubtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+                fragmentTransaction.replace(R.id.contrainer,new calenderFM());
+
+                fragmentTransaction.commit();
+            }
+        });
 
         final Calendar myCalendar = Calendar.getInstance();
 
