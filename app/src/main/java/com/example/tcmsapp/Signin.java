@@ -5,21 +5,21 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageButton;
+import android.widget.TextView;
 
-public class Accounts extends AppCompatActivity {
-    ImageButton btnTeacherLogin;
+public class Signin extends AppCompatActivity {
+    TextView txtSignIn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_accounts);
+        setContentView(R.layout.activity_signin);
 
-        btnTeacherLogin = findViewById(R.id.btnTeacherLogin);
-        btnTeacherLogin.setOnClickListener(new View.OnClickListener() {
+        txtSignIn = findViewById(R.id.txtSignIn);
+        txtSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),Signin.class);
+                Intent intent = new Intent(getApplicationContext(), SignUp.class);
                 startActivity(intent);
             }
         });
