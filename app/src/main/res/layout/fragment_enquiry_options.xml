@@ -148,7 +148,7 @@
                                     android:orientation="vertical">
 
                                     <ImageView
-                                        android:id="@+id/activeStd"
+                                        android:id="@+id/opnenquery"
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
                                         android:layout_gravity="center_horizontal"
