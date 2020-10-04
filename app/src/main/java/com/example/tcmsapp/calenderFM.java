@@ -31,6 +31,24 @@ public class calenderFM extends Fragment{
                fragmentTransaction.commit();
            }
        });
+       ImageView enquery = view.findViewById(R.id.enquery);
+        enquery.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+               fragmentTransaction.replace(R.id.contrainer,new enqueryOptions());
+               fragmentTransaction.commit();
+           }
+       });
+        ImageView staff = view.findViewById(R.id.staff);
+        staff.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+               fragmentTransaction.replace(R.id.contrainer,new staffMain());
+               fragmentTransaction.commit();
+           }
+       });
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
