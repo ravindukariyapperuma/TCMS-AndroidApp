@@ -2,24 +2,23 @@
 
 
 
-<ScrollView android:layout_width="match_parent"
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android"
 
     >
     <FrameLayout android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        xmlns:android="http://schemas.android.com/apk/res/android">
+        android:layout_height="wrap_content">
 
 
 
 
 
 <LinearLayout
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:weightSum="10"
 
@@ -413,11 +412,13 @@
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
                             android:layout_gravity="center_horizontal|center_vertical">
+
                             <ImageView
-                                android:src="@drawable/dashboard_todotask"
+                                android:id="@+id/todoTask"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_gravity="center_horizontal"/>
+                                android:layout_gravity="center_horizontal"
+                                android:src="@drawable/dashboard_todotask" />
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
 

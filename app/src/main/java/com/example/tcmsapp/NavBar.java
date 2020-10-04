@@ -48,7 +48,7 @@ public class NavBar extends AppCompatActivity {
                         fragment= new notifyFM();
                         break;
                     case R.id.profile:
-                        fragment= new profileFM();
+                        fragment= new MyAccount();
                         break;
 
                 }
