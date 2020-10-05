@@ -15,13 +15,15 @@
         <activity android:name=".Signin"></activity>
         <activity android:name=".Accounts" />
         <activity android:name=".WelcomeScreen">
+        </activity>
+        <activity android:name=".NavBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <activity android:name=".NavBar" />
     </application>
 
 </manifest>

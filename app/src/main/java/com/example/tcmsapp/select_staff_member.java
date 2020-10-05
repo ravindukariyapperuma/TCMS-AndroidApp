@@ -20,7 +20,17 @@ public class select_staff_member extends Fragment {
         final View view = inflater.inflate(R.layout.fragment_select_staff_member,container,false);
 
        CardView card1 = view.findViewById(R.id.cardview1);
+        ImageView selectstaffmember = view.findViewById(R.id.selectstaffmemberbackbtn);
 
+        selectstaffmember.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+                fragmentTransaction.replace(R.id.contrainer,new staffMain());
+
+                fragmentTransaction.commit();
+            }
+        });
         card1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
