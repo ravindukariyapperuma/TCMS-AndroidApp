@@ -17,7 +17,17 @@ public class EnqueryList extends Fragment {
         final View view = inflater.inflate(R.layout.enquiry_list,container,false);
 
         ImageView opnenquery = view.findViewById(R.id.messagebutton);
+        ImageView enquirylistbackbtn = view.findViewById(R.id.enquirylistbackbtn);
 
+        enquirylistbackbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+                fragmentTransaction.replace(R.id.contrainer,new enqueryOptions());
+
+                fragmentTransaction.commit();
+            }
+        });
 
         opnenquery.setOnClickListener(new View.OnClickListener() {
             @Override

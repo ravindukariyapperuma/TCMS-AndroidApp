@@ -17,6 +17,17 @@ public class staffMain extends Fragment {
                              Bundle savedInstanceState) {
         final View view = inflater.inflate(R.layout.fragment_staff_main,container,false);
         ImageView staffmgr = view.findViewById(R.id.staffmgr);
+        ImageView staffmainback = view.findViewById(R.id.staffmainbackBtn);
+
+        staffmainback .setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+                fragmentTransaction.replace(R.id.contrainer,new calenderFM());
+
+                fragmentTransaction.commit();
+            }
+        });
         staffmgr.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -43,7 +43,7 @@
 
 
                             <ImageView
-                                android:id="@+id/backBtn"
+                                android:id="@+id/staffmainbackBtn"
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
                                 android:paddingTop="15dp"
