@@ -36,7 +36,7 @@
                 android:layout_marginRight="60dp"
                 android:text="Expense options"
                 android:textAlignment="center"
-                android:textSize="26dp" />
+                android:textSize="25dp" />
 
             <ImageView
 

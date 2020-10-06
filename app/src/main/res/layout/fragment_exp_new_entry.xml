@@ -42,8 +42,8 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="New Batch"
-                            android:textSize="30dp"
+                            android:text="Add expenses"
+                            android:textSize="25dp"
                             android:layout_gravity="center_horizontal"
                             android:textAlignment="center"
 
@@ -81,6 +81,7 @@
                         android:textSize="25dp"
                         android:layout_margin="10dp"/>
                     <EditText
+                        android:id="@+id/expCate"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="Expense Category"
@@ -95,6 +96,7 @@
                         android:textSize="25dp"
                         android:layout_margin="10dp"/>
                     <EditText
+                        android:id="@+id/remark"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="Remarks"
@@ -109,6 +111,7 @@
                         android:textSize="25dp"
                         android:layout_margin="10dp"/>
                     <EditText
+                        android:id="@+id/type"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="Type "
@@ -130,6 +133,7 @@
                     </HorizontalScrollView>
 
                     <Button
+                        android:id="@+id/saveBtn"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/button"
