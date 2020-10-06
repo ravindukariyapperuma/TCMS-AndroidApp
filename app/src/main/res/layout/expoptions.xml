@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 <FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/batchContainer"
@@ -16,40 +19,48 @@
         tools:context=".calenderFM">
 
 
-        <LinearLayout
-
-            android:padding="20dp"
+        <RelativeLayout
+            android:layout_margin="20dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content">
 
-            <ImageView
-                android:id="@+id/backBtn"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/backbtn"/>
-
-            <TextView
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="60dp"
-                android:layout_marginRight="60dp"
-                android:text="Expense options"
-                android:textAlignment="center"
-                android:textSize="26dp" />
+                android:orientation="horizontal">
 
-            <ImageView
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3">
 
-                android:id="@+id/menubtn"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/menybtn"/>
+                    <ImageView
+                        android:id="@+id/backBtn"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/backbtn"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Expences Option"
+                        android:textSize="30dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textAlignment="center"
+
+                        />
+
+                    <ImageView
+
+                        android:id="@+id/menubtn"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/menybtn"/>
+                </GridLayout>
 
 
-
-
-
-        </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
 
 
         <LinearLayout
@@ -247,3 +258,4 @@
     </LinearLayout>
 
 </FrameLayout>
+</ScrollView>

@@ -195,13 +195,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                    <ImageButton
-                        android:id="@+id/imageButton47"
-                        android:layout_width="412dp"
-                        android:layout_height="91dp"
-                        android:background="@drawable/bottumlistback"
-                        tools:layout_editor_absoluteX="-1dp"
-                        tools:layout_editor_absoluteY="1dp" />
+
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </LinearLayout>

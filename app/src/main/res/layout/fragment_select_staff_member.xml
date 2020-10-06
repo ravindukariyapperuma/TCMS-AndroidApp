@@ -16,40 +16,48 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <LinearLayout
-
-                android:padding="20dp"
+            <RelativeLayout
+                android:layout_margin="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:layout_height="wrap_content">
 
-                <ImageView
-                    android:id="@+id/selectstaffmemberbackbtn"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:src="@drawable/backbtn"/>
-
-                <TextView
-                    android:layout_width="244dp"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginRight="30dp"
-                    android:text="Select Staff Member"
-                    android:textAlignment="center"
-                    android:textSize="30dp" />
+                    android:orientation="horizontal">
 
-                <ImageView
+                    <GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:columnCount="3">
 
-                    android:id="@+id/menubtn"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:src="@drawable/menybtn"/>
+                        <ImageView
+                            android:id="@+id/selectstaffmemberbackbtn"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/backbtn"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Select Staff Members"
+                            android:textSize="30dp"
+                            android:layout_gravity="center_horizontal"
+                            android:textAlignment="center"
+
+                            />
+
+                        <ImageView
+
+                            android:id="@+id/menubtn"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/menybtn"/>
+                    </GridLayout>
 
 
-
-
-
-            </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -167,18 +175,13 @@
                                         />
                                 </LinearLayout>
 
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:text="Monthly"
-                                    android:textAlignment="center"
-                                    android:textSize="15dp"
-                                    android:padding="5dp"
-                                    android:textColor="#ff0006"
-                                    android:layout_marginTop="165dp"
-                                    />
+
                             </LinearLayout>
 
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -190,6 +193,18 @@
                                 android:textSize="15dp"
 
                                 />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Monthly"
+                                    android:textAlignment="center"
+                                    android:textSize="15dp"
+                                    android:padding="5dp"
+                                    android:textColor="#ff0006"
+                                    android:layout_marginTop="165dp"
+                                    />
+                            </LinearLayout>
 
                         </androidx.cardview.widget.CardView>
 
@@ -270,17 +285,13 @@
                                         android:textSize="15dp" />
                                 </LinearLayout>
 
-                                <TextView
-                                    android:layout_width="94dp"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="165dp"
-                                    android:padding="5dp"
-                                    android:text="Daily Wages"
-                                    android:textAlignment="center"
-                                    android:textColor="#ff0006"
-                                    android:textSize="15dp" />
+
                             </LinearLayout>
 
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
                             <TextView
                                 android:layout_width="120dp"
                                 android:layout_height="wrap_content"
@@ -292,6 +303,20 @@
                                 android:textSize="15dp"
 
                                 />
+
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Daily Wages"
+                                    android:textAlignment="center"
+                                    android:textSize="15dp"
+                                    android:padding="5dp"
+                                    android:textColor="#ff0006"
+                                    android:layout_marginTop="165dp"
+                                    />
+
+                            </LinearLayout>
 
                         </androidx.cardview.widget.CardView>
 

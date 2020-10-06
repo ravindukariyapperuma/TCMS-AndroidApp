@@ -15,66 +15,72 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+            <RelativeLayout
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
             <LinearLayout
-
-                android:padding="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <ImageView
-                    android:id="@+id/stafflistbackbtn"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:src="@drawable/backbtn"/>
-
-                <TextView
-                    android:layout_width="160dp"
+                <GridLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginRight="30dp"
-                    android:text="Staff List"
-                    android:textAlignment="center"
-                    android:textSize="30dp" />
+                    android:columnCount="3">
 
-                <ImageView
+                    <ImageView
+                        android:id="@+id/stafflistbackbtn"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/backbtn"/>
 
-                    android:id="@+id/menubtn"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:src="@drawable/menybtn"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Staff List"
+                        android:textSize="30dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textAlignment="center"
 
+                        />
 
+                    <ImageView
 
+                        android:id="@+id/menubtn"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/menybtn"/>
+                </GridLayout>
 
 
             </LinearLayout>
+        </RelativeLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="15dp"
-                    app:cardCornerRadius="15dp"
 
-                    >
 
-                    <EditText
+                    <ImageView
+
+                        android:id="@+id/imageView3"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="Search"
-                        android:textSize="30dp"
+                        android:layout_height="76dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/search_bar"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.48"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
-                        android:textAlignment="center"/>
 
 
 
-                </androidx.cardview.widget.CardView>
+
 
 
 
@@ -176,18 +182,13 @@
                                         />
                                 </LinearLayout>
 
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:text="Monthly"
-                                    android:textAlignment="center"
-                                    android:textSize="15dp"
-                                    android:padding="5dp"
-                                    android:textColor="#ff0006"
-                                    android:layout_marginTop="165dp"
-                                    />
+
                             </LinearLayout>
 
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -199,6 +200,18 @@
                                 android:textSize="15dp"
 
                                 />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Monthly"
+                                android:textAlignment="center"
+                                android:textSize="15dp"
+                                android:padding="5dp"
+                                android:textColor="#ff0006"
+                                android:layout_marginTop="165dp"
+                                />
+                            </LinearLayout>
 
                         </androidx.cardview.widget.CardView>
 
@@ -279,28 +292,38 @@
                                         android:textSize="15dp" />
                                 </LinearLayout>
 
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
                                 <TextView
-                                    android:layout_width="94dp"
+                                    android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="165dp"
                                     android:padding="5dp"
+                                    android:text="Status : Active"
+                                    android:textAlignment="center"
+                                    android:textColor="#84D13C"
+                                    android:textSize="15dp"
+
+                                    />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
                                     android:text="Daily Wages"
                                     android:textAlignment="center"
+                                    android:textSize="15dp"
+                                    android:padding="5dp"
                                     android:textColor="#ff0006"
-                                    android:textSize="15dp" />
+                                    android:layout_marginTop="165dp"
+                                    />
                             </LinearLayout>
 
-                            <TextView
-                                android:layout_width="120dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="165dp"
-                                android:padding="5dp"
-                                android:text="Status : Active"
-                                android:textAlignment="center"
-                                android:textColor="#84D13C"
-                                android:textSize="15dp"
 
-                                />
 
                         </androidx.cardview.widget.CardView>
 

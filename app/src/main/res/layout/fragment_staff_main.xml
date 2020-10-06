@@ -24,59 +24,47 @@
 
 
             <RelativeLayout
+                android:layout_margin="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="horizontal">
+
                     <GridLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:columnCount="3">
-                        <LinearLayout
-                            android:layout_width="match_parent"
+
+                        <ImageView
+                            android:id="@+id/staffmainbackBtn"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/backbtn"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:orientation="horizontal">
+                            android:text="Staff Main"
+                            android:textSize="30dp"
+                            android:layout_gravity="center_horizontal"
+                            android:textAlignment="center"
 
+                            />
 
+                        <ImageView
 
-                            <ImageView
-                                android:id="@+id/staffmainbackBtn"
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
-                                android:paddingTop="15dp"
-                                android:src="@drawable/backbtn"/>
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Staff Main"
-                                android:textSize="30dp"
-
-                                android:layout_marginRight="50dp"
-                                android:textAlignment="center"
-                                android:paddingTop="15dp"
-                                />
-
-                            <!-- <ImageView
-                                 android:id="@+id/menuBtn"
-                                 android:layout_width="50dp"
-                                 android:layout_height="50dp"
-                                 android:paddingTop="15dp"
-                                 android:src="@drawable/menuBtn"/>-->
-
-
-
-                        </LinearLayout>
-
+                            android:id="@+id/menubtn"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/menybtn"/>
                     </GridLayout>
+
+
                 </LinearLayout>
-
-
             </RelativeLayout>
-
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -122,6 +110,7 @@
                                         android:src="@drawable/ss1"
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
+                                        android:layout_margin="10dp"
                                         android:layout_gravity="center_horizontal"/>
                                 </LinearLayout>
 
@@ -151,6 +140,7 @@
                                         android:src="@drawable/ss2"
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
+                                        android:layout_margin="10dp"
                                         android:layout_gravity="center_horizontal"/>
                                 </LinearLayout>
 
@@ -197,41 +187,16 @@
 
                                     <ImageView
                                         android:id="@+id/staffsalary"
-                                        android:layout_width="118dp"
-                                        android:layout_height="188dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="10dp"
                                         android:layout_gravity="center_horizontal"
                                         android:src="@drawable/ss3" />
                                 </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
 
-                            <androidx.cardview.widget.CardView
 
-
-                                android:layout_height="200dp"
-                                android:layout_width="wrap_content"
-                                android:layout_columnWeight="1"
-                                android:layout_margin="15dp"
-                                android:layout_rowWeight="1"
-                                android:layout_marginLeft="30dp"
-                                android:layout_marginRight="30dp"
-                                app:cardElevation="8dp"
-                                app:cardCornerRadius="8dp"
-                                >
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:orientation="vertical"
-                                    android:layout_gravity="center_horizontal|center_vertical">
-                                    <ImageView
-                                        android:id="@+id/flygrp"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:layout_gravity="center_horizontal"/>
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
 
 
 
