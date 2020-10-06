@@ -22,7 +22,7 @@ public class exp_alert extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_exp_alert, container, false);
-        ImageView backBtn = view.findViewById(R.id.backbtn);
+        ImageView backBtn = view.findViewById(R.id.backBtn);
 
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override

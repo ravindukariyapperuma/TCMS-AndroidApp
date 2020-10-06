@@ -21,7 +21,7 @@ public class incomeoption extends Fragment {
         View view = inflater.inflate(R.layout.fragment_incomeoption,container,false);
         ImageView optioniicon = view.findViewById(R.id.optioniicon);
         ImageView optioneicon = view.findViewById(R.id.optioneicon);
-        ImageView backBtn = view.findViewById(R.id.backbtn);
+        ImageView backBtn = view.findViewById(R.id.backBtn);
 
         optioniicon.setOnClickListener(new View.OnClickListener() {
             @Override
