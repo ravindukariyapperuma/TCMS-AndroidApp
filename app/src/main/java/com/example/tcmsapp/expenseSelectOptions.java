@@ -13,27 +13,49 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 
-public class incomeoption extends Fragment {
-
-
+public class expenseSelectOptions extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_incomeoption,container,false);
-        ImageView optioniicon = view.findViewById(R.id.optioniicon);
-        ImageView optioneicon = view.findViewById(R.id.optioneicon);
-        ImageView backBtn = view.findViewById(R.id.backbtn);
+        View view = inflater.inflate(R.layout.fragment_expense_select_options, container, false);
+        ImageView expcat = view.findViewById(R.id.expcat);
+        ImageView addexpicon = view.findViewById(R.id.addexpicon);
+        ImageView expalert = view.findViewById(R.id.expalert);
+        ImageView expreport = view.findViewById(R.id.expreport);
+        ImageView backBtn = view.findViewById(R.id.backBtn);
 
-        optioniicon.setOnClickListener(new View.OnClickListener() {
+        expcat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.contrainer,new incomeNewEntry());
+                fragmentTransaction.replace(R.id.contrainer,new ExpcategoryList());
                 fragmentTransaction.commit();
 
             }
         });
 
-        optioneicon.setOnClickListener(new View.OnClickListener() {
+
+        addexpicon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+                fragmentTransaction.replace(R.id.contrainer,new expNewEntry());
+                fragmentTransaction.commit();
+
+            }
+        });
+
+        expalert.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+                fragmentTransaction.replace(R.id.contrainer,new exp_alert());
+                fragmentTransaction.commit();
+
+            }
+        });
+
+
+        expreport.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
@@ -53,5 +75,6 @@ public class incomeoption extends Fragment {
             }
         });
         return view;
+
     }
 }

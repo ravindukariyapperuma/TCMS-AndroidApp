@@ -170,24 +170,6 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
-                    <ImageButton
-                        android:id="@+id/imageButton2"
-                        android:layout_width="120dp"
-                        android:layout_height="116dp"
-                        android:background="@drawable/dashboard_students"
-                        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
-                        app:layout_constraintHorizontal_bias="0.5"
-                        app:layout_constraintStart_toEndOf="@+id/imageButton4"
-                        tools:layout_editor_absoluteY="0dp" />
-
-                    <ImageButton
-                        android:id="@+id/imageButton3"
-                        android:layout_width="120dp"
-                        android:layout_height="116dp"
-                        android:layout_marginEnd="10dp"
-                        android:background="@drawable/dashboard_attendance"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        tools:layout_editor_absoluteY="0dp" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
