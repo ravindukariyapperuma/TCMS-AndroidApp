@@ -33,7 +33,7 @@ public class NavBar extends AppCompatActivity {
                 switch (i){
                     case R.id.calen:
 
-                        fragment= new calenderFM();
+                        fragment= new Dashboard();
 
                         break;
                     case R.id.people:
