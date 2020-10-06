@@ -17,6 +17,7 @@ public class salaryHistory extends Fragment {
         final View view = inflater.inflate(R.layout.salary_history,container,false);
         ImageView selectstaffmember = view.findViewById(R.id.salaryhistorybackbtn);
 
+
         selectstaffmember.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -26,6 +27,7 @@ public class salaryHistory extends Fragment {
                 fragmentTransaction.commit();
             }
         });
+
         return view;
     }
 }
