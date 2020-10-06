@@ -22,7 +22,7 @@ public class incomeNewEntry extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_income_new_entry,container,false);
-        ImageView backBtn = view.findViewById(R.id.backbtn);
+        ImageView backBtn = view.findViewById(R.id.backBtn);
 
 
         backBtn.setOnClickListener(new View.OnClickListener() {
