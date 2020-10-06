@@ -40,7 +40,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Income Options"
-                            android:textSize="30dp"
+                            android:textSize="25dp"
                             android:layout_gravity="center_horizontal"
                             android:textAlignment="center"
 
@@ -111,7 +111,7 @@
                                     android:paddingTop="50dp"
                                     android:text="Add income"
                                     android:textAlignment="center"
-                                    android:textSize="30dp"
+                                    android:textSize="25dp"
                                     />
 
                             </LinearLayout>
@@ -147,7 +147,7 @@
                                     android:paddingTop="50dp"
                                     android:text="Income report"
                                     android:textAlignment="center"
-                                    android:textSize="30dp" />
+                                    android:textSize="25dp" />
 
                             </LinearLayout>
 
