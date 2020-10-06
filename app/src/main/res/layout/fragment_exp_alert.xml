@@ -161,6 +161,7 @@
                                 </LinearLayout>
 
                                 <ImageView
+                                    android:id="@+id/alertClick"
                                     android:layout_marginLeft="70dp"
                                     android:layout_width="65dp"
                                     android:layout_height="99dp"
