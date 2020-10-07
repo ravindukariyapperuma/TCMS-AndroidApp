@@ -121,6 +121,7 @@
                         android:textSize="25dp"
                         android:layout_margin="10dp"/>
                     <EditText
+                        android:id="@+id/bname"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="Batch Name"
@@ -135,6 +136,7 @@
                         android:textSize="25dp"
                         android:layout_margin="10dp"/>
                     <EditText
+                        android:id="@+id/location"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="Location"
@@ -149,6 +151,7 @@
                         android:textSize="25dp"
                         android:layout_margin="10dp"/>
                     <EditText
+                        android:id="@+id/teacher"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="Teacher"
@@ -269,9 +272,11 @@
                         android:textSize="25dp"
                         android:layout_margin="10dp"/>
                     <EditText
+                        android:id="@+id/time"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="Time"
+                        android:inputType="time"
                         android:textColor="#84D13C"
                         android:layout_margin="10dp"
                         android:textSize="20dp"/>
@@ -282,13 +287,16 @@
                         android:textSize="25dp"
                         android:layout_margin="10dp"/>
                     <EditText
+                        android:id="@+id/slots"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="Slots"
+                        android:inputType="number"
                         android:textColor="#84D13C"
                         android:layout_margin="10dp"
                         android:textSize="20dp"/>
                     <Button
+                        android:id="@+id/batchbtn"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/button"

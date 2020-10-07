@@ -106,7 +106,7 @@
                                 <ImageView
                                     android:id="@+id/expcat"
                                     android:src="@drawable/expcat"
-                                    android:layout_width="match_parent"
+                                    android:layout_width="wrap_content"
                                     android:layout_height="match_parent"
                                     android:layout_gravity="center_horizontal"/>
                             </LinearLayout>
@@ -135,7 +135,7 @@
                                 <ImageView
                                     android:id="@+id/addexpicon"
                                     android:src="@drawable/addexpicon"
-                                    android:layout_width="match_parent"
+                                    android:layout_width="wrap_content"
                                     android:layout_height="match_parent"
                                     android:layout_gravity="center_horizontal"/>
                             </LinearLayout>
@@ -184,7 +184,7 @@
                                 <ImageView
                                     android:id="@+id/expalert"
                                     android:src="@drawable/expalert"
-                                    android:layout_width="match_parent"
+                                    android:layout_width="wrap_content"
                                     android:layout_height="match_parent"
                                     android:layout_gravity="center_horizontal"/>
                             </LinearLayout>
@@ -213,7 +213,7 @@
                                 <ImageView
                                     android:id="@+id/expreport"
                                     android:src="@drawable/expreport"
-                                    android:layout_width="match_parent"
+                                    android:layout_width="wrap_content"
                                     android:layout_height="match_parent"
                                     android:layout_gravity="center_horizontal"/>
                             </LinearLayout>
