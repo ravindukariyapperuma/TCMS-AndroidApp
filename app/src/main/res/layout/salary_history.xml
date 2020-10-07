@@ -40,10 +40,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Salary History"
-                            android:textSize="30dp"
                             android:layout_gravity="center_horizontal"
+                            android:text="Salary History"
                             android:textAlignment="center"
+                            android:textSize="14sp"
 
                             />
 
@@ -119,7 +119,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="20dp"
+                                android:layout_marginLeft="10dp"
                                 android:layout_marginTop="15dp"
                                 android:padding="5dp"
                                 android:text="2020-08-01"
@@ -130,7 +130,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="25mm"
+                                android:layout_marginLeft="21mm"
                                 android:layout_marginTop="15dp"
                                 android:padding="5dp"
                                 android:text="2020-08-15"
@@ -141,16 +141,13 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="20mm"
+                                android:layout_marginLeft="17mm"
                                 android:layout_marginTop="15dp"
                                 android:padding="5dp"
                                 android:text="to"
                                 android:textAlignment="center"
                                 android:textColor="#009aff"
                                 android:textSize="15dp" />
-
-
-
 
 
                             <TextView
@@ -162,7 +159,8 @@
                                 android:text="PAID"
                                 android:textAlignment="center"
                                 android:textColor="#ff0006"
-                                android:textSize="15dp" />
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
 
 
                             <LinearLayout
@@ -183,8 +181,8 @@
                                         android:layout_height="wrap_content"
                                         android:padding="5dp"
                                         android:text="Salary :"
-                                        android:textAlignment="center"
-                                        android:textColor="#84D13C"
+                                        android:textAlignment="textStart"
+                                        android:textColor="#576E82"
                                         android:textSize="15dp" />
 
                                     <TextView
@@ -192,8 +190,8 @@
                                         android:layout_height="wrap_content"
                                         android:padding="5dp"
                                         android:text="Deduction :"
-                                        android:textAlignment="center"
-                                        android:textColor="#84D13C"
+                                        android:textAlignment="textStart"
+                                        android:textColor="#576E82"
                                         android:textSize="15dp" />
 
                                     <TextView
@@ -201,8 +199,8 @@
                                         android:layout_height="wrap_content"
                                         android:padding="5dp"
                                         android:text="Mobile :"
-                                        android:textAlignment="center"
-                                        android:textColor="#84D13C"
+                                        android:textAlignment="textStart"
+                                        android:textColor="#576E82"
                                         android:textSize="15dp" />
 
 
@@ -221,8 +219,8 @@
                                         android:layout_height="wrap_content"
                                         android:padding="5dp"
                                         android:text="15000"
-                                        android:textAlignment="center"
-                                        android:textColor="#84D13C"
+                                        android:textAlignment="textEnd"
+                                        android:textColor="#576E82"
                                         android:textSize="15dp" />
 
                                     <TextView
@@ -231,7 +229,7 @@
                                         android:padding="5dp"
                                         android:text="- 1200"
                                         android:textAlignment="center"
-                                        android:textColor="#84D13C"
+                                        android:textColor="#576E82"
                                         android:textSize="15dp" />
 
                                     <TextView
@@ -239,8 +237,8 @@
                                         android:layout_height="wrap_content"
                                         android:padding="5dp"
                                         android:text="13800"
-                                        android:textAlignment="center"
-                                        android:textColor="#84D13C"
+                                        android:textAlignment="textEnd"
+                                        android:textColor="#576E82"
                                         android:textSize="15dp" />
                                 </LinearLayout>
 
@@ -280,10 +278,11 @@
                             android:layout_margin="10dp"
 
                             >
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="20dp"
+                                android:layout_marginLeft="10dp"
                                 android:layout_marginTop="15dp"
                                 android:padding="5dp"
                                 android:text="2020-09-01"
@@ -294,7 +293,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="25mm"
+                                android:layout_marginLeft="21mm"
                                 android:layout_marginTop="15dp"
                                 android:padding="5dp"
                                 android:text="2020-09-15"
@@ -305,7 +304,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="20mm"
+                                android:layout_marginLeft="17mm"
                                 android:layout_marginTop="15dp"
                                 android:padding="5dp"
                                 android:text="to"
@@ -322,8 +321,8 @@
                                 android:text="PAID"
                                 android:textAlignment="center"
                                 android:textColor="#ff0006"
-                                android:textSize="15dp" />
-
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
 
 
                             <LinearLayout
@@ -334,18 +333,17 @@
                                 <LinearLayout
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:orientation="vertical"
                                     android:layout_marginLeft="95dp"
                                     android:layout_marginTop="45dp"
-                                    >
+                                    android:orientation="vertical">
 
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:padding="5dp"
                                         android:text="Salary :"
-                                        android:textAlignment="center"
-                                        android:textColor="#84D13C"
+                                        android:textAlignment="textStart"
+                                        android:textColor="#576E82"
                                         android:textSize="15dp" />
 
                                     <TextView
@@ -353,19 +351,18 @@
                                         android:layout_height="wrap_content"
                                         android:padding="5dp"
                                         android:text="Deduction :"
-                                        android:textAlignment="center"
-                                        android:textColor="#84D13C"
+                                        android:textAlignment="textStart"
+                                        android:textColor="#576E82"
                                         android:textSize="15dp" />
 
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="Mobile :"
-                                        android:textAlignment="center"
-                                        android:textSize="15dp"
                                         android:padding="5dp"
-                                        android:textColor="#84D13C"
-                                        />
+                                        android:text="Mobile :"
+                                        android:textAlignment="textStart"
+                                        android:textColor="#576E82"
+                                        android:textSize="15dp" />
 
 
                                 </LinearLayout>
@@ -374,18 +371,17 @@
                                 <LinearLayout
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:orientation="vertical"
                                     android:layout_marginLeft="5dp"
                                     android:layout_marginTop="45dp"
-                                    >
+                                    android:orientation="vertical">
 
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:padding="5dp"
                                         android:text="10000"
-                                        android:textAlignment="center"
-                                        android:textColor="#84D13C"
+                                        android:textAlignment="textEnd"
+                                        android:textColor="#576E82"
                                         android:textSize="15dp" />
 
                                     <TextView
@@ -393,31 +389,29 @@
                                         android:layout_height="wrap_content"
                                         android:padding="5dp"
                                         android:text="- 1000"
-                                        android:textAlignment="center"
-                                        android:textColor="#84D13C"
+                                        android:textAlignment="textEnd"
+                                        android:textColor="#576E82"
                                         android:textSize="15dp" />
 
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="9000"
-                                        android:textAlignment="center"
-                                        android:textSize="15dp"
                                         android:padding="5dp"
-                                        android:textColor="#84D13C"
-                                        />
+                                        android:text="9000"
+                                        android:textAlignment="textEnd"
+                                        android:textColor="#576E82"
+                                        android:textSize="15dp" />
                                 </LinearLayout>
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
+                                    android:layout_marginTop="135dp"
+                                    android:padding="5dp"
                                     android:text="12:07:34"
                                     android:textAlignment="center"
-                                    android:textSize="15dp"
-                                    android:padding="5dp"
                                     android:textColor="#ff0006"
-                                    android:layout_marginTop="135dp"
-                                    />
+                                    android:textSize="15dp" />
 
 
                             </LinearLayout>

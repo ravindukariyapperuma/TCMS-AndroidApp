@@ -242,6 +242,7 @@
                                 </LinearLayout>
 
                                 <ImageView
+                                    android:id="@+id/edit"
                                     android:layout_width="65dp"
                                     android:layout_height="match_parent"
                                     android:padding="13dp"
