@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/tcms_logo"
+        android:icon="@drawable/just_logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/just_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Disclaimer">
@@ -14,9 +14,9 @@
         <activity android:name=".SignUp"></activity>
         <activity android:name=".Signin"></activity>
         <activity android:name=".Accounts" />
-        <activity android:name=".WelcomeScreen">
+        <activity android:name=".NavBar">
         </activity>
-        <activity android:name=".NavBar" >
+        <activity android:name=".WelcomeScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
