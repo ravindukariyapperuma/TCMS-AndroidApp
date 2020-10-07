@@ -98,7 +98,7 @@
                                     android:layout_width="133dp"
                                     android:layout_height="136dp"
                                     android:layout_margin="10dp"
-                                    android:src="@drawable/optioniicon" />
+                                    android:src="@drawable/addincome" />
                                 <LinearLayout
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -134,7 +134,7 @@
                                     android:layout_width="143dp"
                                     android:layout_height="129dp"
                                     android:layout_margin="10dp"
-                                    android:src="@drawable/optioneicon" />
+                                    android:src="@drawable/incomerport" />
                                 <LinearLayout
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"

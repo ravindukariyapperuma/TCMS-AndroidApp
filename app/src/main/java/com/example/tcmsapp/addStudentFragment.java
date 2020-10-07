@@ -14,9 +14,11 @@ import androidx.fragment.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -47,6 +49,36 @@ public class addStudentFragment extends Fragment {
             }
         });
 
+
+        Button addbtn = view.findViewById(R.id.addbtn);
+       final EditText stdId = view.findViewById(R.id.stdId);
+        final EditText rollnum = view.findViewById(R.id.rollnum);
+        final EditText stdname = view.findViewById(R.id.stdname);
+        final  EditText parentName = view.findViewById(R.id.parentName);
+        final  EditText dob = view.findViewById(R.id.dob);
+        final EditText mobnum = view.findViewById(R.id.mobnum);
+        final EditText address = view.findViewById(R.id.address);
+        final EditText amount = view.findViewById(R.id.amount);
+        final EditText startdate = view.findViewById(R.id.startdate);
+        final EditText scl = view.findViewById(R.id.scl);
+
+        addbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(stdId.getText().toString().isEmpty() || rollnum.getText().toString().isEmpty() || stdname.getText().toString().isEmpty() || parentName.getText().toString().isEmpty() || dob.getText().toString().isEmpty() ||
+                        mobnum.getText().toString().isEmpty() || address.getText().toString() .isEmpty() || amount.getText().toString().isEmpty() || startdate.getText().toString().isEmpty() ||  scl.getText().toString().isEmpty()){
+
+
+                    Toast.makeText(getActivity(),"Please fill all required fields !", Toast.LENGTH_LONG).show();
+
+                }else{
+                    Toast.makeText(getActivity(),"Adding successfull", Toast.LENGTH_LONG).show();
+                }
+            }
+        });
+
+
+
         ImageView backbtn = view.findViewById(R.id.backBtn);
         ImageView menubtn = view.findViewById(R.id.menubtn);
         backbtn.setOnClickListener(new View.OnClickListener() {
@@ -72,7 +104,7 @@ public class addStudentFragment extends Fragment {
 
 
         final EditText edittext= (EditText) view.findViewById(R.id.dob);
-        final EditText startdate= (EditText) view.findViewById(R.id.startdate);
+       // final EditText startdate= (EditText) view.findViewById(R.id.startdate);
         final DatePickerDialog.OnDateSetListener date = new DatePickerDialog.OnDateSetListener() {
 
             @Override

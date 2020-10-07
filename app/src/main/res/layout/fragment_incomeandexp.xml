@@ -42,7 +42,7 @@
                         <TextView
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
-                            android:text="Students"
+                            android:text="Income/Expenses"
                             android:textSize="25dp"
                             android:layout_gravity="center_horizontal"
                             android:textAlignment="center"
@@ -116,7 +116,7 @@
                                 android:id="@+id/incomeIcon"
                                 android:layout_width="153dp"
                                 android:layout_height="139dp"
-                                android:src="@drawable/incomeicons" />
+                                android:src="@drawable/income" />
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
@@ -145,7 +145,7 @@
                                 android:id="@+id/expenseIcon"
                                 android:layout_width="126dp"
                                 android:layout_height="185dp"
-                                android:src="@drawable/expenseic" />
+                                android:src="@drawable/expenses" />
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>

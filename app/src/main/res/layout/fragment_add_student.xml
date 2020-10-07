@@ -91,6 +91,7 @@
                 android:textSize="25dp"
                 android:layout_margin="10dp"/>
             <EditText
+                android:id="@+id/stdId"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Student ID"
@@ -105,6 +106,7 @@
                 android:textSize="25dp"
                 android:layout_margin="10dp"/>
             <EditText
+                android:id="@+id/rollnum"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Roll Number"
@@ -119,6 +121,7 @@
                 android:textSize="25dp"
                 android:layout_margin="10dp"/>
             <EditText
+                android:id="@+id/stdname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Student Name"
@@ -134,6 +137,7 @@
                 android:textSize="25dp"
                 android:layout_margin="10dp"/>
             <EditText
+                android:id="@+id/parentName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Parent's Name"
@@ -165,7 +169,7 @@
                 android:textSize="25dp"
                 android:layout_margin="10dp"/>
             <EditText
-
+android:id="@+id/mobnum"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Mobile No"
@@ -218,7 +222,7 @@
                 android:textSize="25dp"
                 android:layout_margin="10dp"/>
             <EditText
-
+                android:id="@+id/address"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Address"
@@ -274,7 +278,9 @@
                 android:textSize="25dp"
                 android:layout_margin="10dp"/>
             <EditText
-
+                android:id="@+id/amount"
+                android:inputType="number"
+                android:maxLength="10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="amount"
@@ -314,7 +320,7 @@
                 android:layout_margin="10dp"/>
             <EditText
 
-
+                android:id="@+id/scl"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="School/College"
@@ -407,6 +413,7 @@
             </LinearLayout>
 
             <Button
+                android:id="@+id/addbtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button"
