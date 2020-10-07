@@ -8,8 +8,7 @@
     android:layout_height="wrap_content"
 
     android:orientation="vertical"
-    android:layout_gravity="center_horizontal|center_vertical"
-
+    android:layout_marginTop="120dp"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
 
@@ -28,46 +27,18 @@
             android:textAllCaps="true"
             android:layout_margin="30dp"
             android:fontFamily="casual"
-            android:textColor="#000000"
-
-            android:text="Make your Class Easier !"/>
-
-
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_gravity="center_horizontal|center_vertical"
-
-        android:src="@drawable/finalicon"/>
-
+            android:textColor="#383E38"
+            android:text="Tuition Class Management System"/>
 
 
     </LinearLayout>
 
-<ImageView
-    android:layout_width="match_parent"
-    android:layout_height="70dp"
-    android:layout_margin="30dp"
-    android:src="@drawable/finallogo"
-    android:layout_gravity="center_horizontal"/>
-
-    <TextView
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="156dp"
         android:layout_gravity="center_horizontal"
-        android:textAlignment="center"
-        android:textSize="25dp"
-        android:text="Tuition Class \n Management System"/>
-
-
-
-
-
-
-
-
-
-
+        android:layout_margin="30dp"
+        android:src="@drawable/finallogo" />
 
 
 </LinearLayout>
