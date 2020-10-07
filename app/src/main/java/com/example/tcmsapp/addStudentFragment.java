@@ -85,7 +85,7 @@ public class addStudentFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.contrainer,new ActivestudentList());
+                fragmentTransaction.replace(R.id.contrainer,new studentfragment());
 
                 fragmentTransaction.commit();
             }
