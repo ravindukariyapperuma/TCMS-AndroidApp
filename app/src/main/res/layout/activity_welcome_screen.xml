@@ -30,7 +30,7 @@
             android:fontFamily="casual"
             android:textColor="#000000"
 
-            android:text="Make your Class Easier"/>
+            android:text="Make your Class Easier !"/>
 
 
     <ImageView
@@ -38,7 +38,7 @@
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal|center_vertical"
 
-        android:src="@drawable/just_logo"/>
+        android:src="@drawable/finalicon"/>
 
 
 
@@ -46,9 +46,9 @@
 
 <ImageView
     android:layout_width="match_parent"
-    android:layout_height="60dp"
+    android:layout_height="70dp"
     android:layout_margin="30dp"
-    android:src="@drawable/tcmslogpng"
+    android:src="@drawable/finallogo"
     android:layout_gravity="center_horizontal"/>
 
     <TextView
@@ -59,13 +59,7 @@
         android:textSize="25dp"
         android:text="Tuition Class \n Management System"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:text="TCMS"
-        android:textSize="30dp"
-        android:textColor="#56BA47"/>
+
 
 
 
