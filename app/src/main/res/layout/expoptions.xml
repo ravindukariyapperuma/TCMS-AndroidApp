@@ -43,7 +43,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Expences Option"
+                        android:text="Expense Options"
                         android:textSize="30dp"
                         android:layout_gravity="center_horizontal"
                         android:textAlignment="center"
