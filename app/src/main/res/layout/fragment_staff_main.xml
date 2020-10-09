@@ -70,164 +70,130 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-                <LinearLayout
+
+                <GridLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
+                    android:rowCount="4"
+                    android:columnCount="2"
+                    >
 
-                    android:orientation="vertical">
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_gravity="center">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:layout_gravity="fill"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="15dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="8dp"
 
-                        <GridLayout
-                            android:layout_width="match_parent"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:columnCount="2">
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical|center_horizontal">
+                            <ImageView
+                                android:id="@+id/staffmgr"
+                                android:src="@drawable/staffmanager"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="10dp"
+                                android:layout_gravity="center_horizontal"/>
+                        </LinearLayout>
 
-                            <androidx.cardview.widget.CardView
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:layout_gravity="fill"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="15dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="8dp"
 
+                        >
 
-                                android:layout_height="200dp"
-                                android:layout_width="wrap_content"
-                                android:layout_columnWeight="1"
-                                android:layout_margin="15dp"
-                                android:layout_rowWeight="1"
-                                android:layout_marginLeft="35dp"
-                                android:layout_marginRight="30dp"
-                                app:cardElevation="8dp"
-                                app:cardCornerRadius="8dp"
-                                >
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:orientation="vertical"
-                                    android:layout_gravity="center_horizontal|center_vertical">
-                                    <ImageView
-                                        android:id="@+id/staffmgr"
-                                        android:src="@drawable/ss1"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:layout_margin="10dp"
-                                        android:layout_gravity="center_horizontal"/>
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
-
-                            <androidx.cardview.widget.CardView
-
-
-                                android:layout_height="200dp"
-                                android:layout_width="wrap_content"
-                                android:layout_columnWeight="1"
-                                android:layout_margin="15dp"
-                                android:layout_rowWeight="1"
-                                android:layout_marginLeft="30dp"
-                                android:layout_marginRight="35dp"
-                                app:cardElevation="8dp"
-                                app:cardCornerRadius="8dp"
-                                >
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:orientation="vertical"
-                                    android:layout_gravity="center_horizontal|center_vertical">
-                                    <ImageView
-                                        android:id="@+id/activeStd"
-                                        android:src="@drawable/ss2"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:layout_margin="10dp"
-                                        android:layout_gravity="center_horizontal"/>
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
-
-
-
-
-                        </GridLayout>
-
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_gravity="center">
-
-                        <GridLayout
-                            android:layout_width="match_parent"
+                        <LinearLayout
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:columnCount="2">
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical|center_horizontal">
+                            <ImageView
+                                android:id="@+id/activeStd"
+                                android:src="@drawable/staffsalary"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="10dp"
+                                android:layout_gravity="center_horizontal"/>
+                        </LinearLayout>
 
-                            <androidx.cardview.widget.CardView
+                    </androidx.cardview.widget.CardView>
 
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_row="1"
+                        android:layout_column="0"
+                        android:layout_gravity="fill"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="15dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="8dp"
 
-                                android:layout_width="14dp"
-                                android:layout_height="126dp"
-                                android:layout_rowWeight="1"
-                                android:layout_columnWeight="1"
-                                android:layout_margin="15dp"
-                                android:layout_marginLeft="30dp"
-                                android:layout_marginRight="30dp"
-                                app:cardCornerRadius="8dp"
-                                app:cardElevation="8dp">
+                        >
 
-                                <LinearLayout
-                                    android:layout_width="133dp"
-                                    android:layout_height="164dp"
-                                    android:layout_gravity="center_horizontal|center_vertical"
-                                    android:orientation="vertical">
-
-                                    <ImageView
-                                        android:id="@+id/staffsalary"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:layout_margin="10dp"
-                                        android:layout_gravity="center_horizontal"
-                                        android:src="@drawable/ss3" />
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
-
-
-
-
-
-
-                        </GridLayout>
-
-
-
-                    </LinearLayout>
-
-
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical|center_horizontal">
+                            <ImageView
+                                android:id="@+id/staffsalary"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="10dp"
+                                android:layout_gravity="center_horizontal"
+                                android:src="@drawable/attmanager" />
+                        </LinearLayout>
 
 
-
+                    </androidx.cardview.widget.CardView>
 
 
 
 
 
-
-
-
-
-
-
-
-
-                </LinearLayout>
-
-
+                </GridLayout>
             </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         </LinearLayout>
