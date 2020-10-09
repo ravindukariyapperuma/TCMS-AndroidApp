@@ -138,7 +138,7 @@
                         android:textColor="@android:color/white" />
 
                     <Button
-                        android:id="@+id/button"
+                        android:id="@+id/btnSignin"
                         android:layout_width="112dp"
                         android:layout_height="wrap_content"
                         android:layout_margin="20dp"

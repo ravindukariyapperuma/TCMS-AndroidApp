@@ -1,5 +1,6 @@
 package com.example.tcmsapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -10,6 +11,7 @@ import androidx.fragment.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 
@@ -23,8 +25,18 @@ public class calenderFM extends Fragment{
        ImageView imageView = view.findViewById(R.id.std);
        ImageView todoTask = view.findViewById(R.id.dtodotask);
        ImageView incomeExpBtn = view.findViewById(R.id.incomeExpBtn);
+       ImageButton btnBackMainMenu = view.findViewById(R.id.btnBackMainMenu);
 
        ImageView batches = view.findViewById(R.id.batches);
+
+        btnBackMainMenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(),Signin.class);
+                startActivity(intent);
+            }
+        });
+
        batches.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
