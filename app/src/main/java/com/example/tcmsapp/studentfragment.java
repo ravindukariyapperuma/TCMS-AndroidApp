@@ -54,7 +54,7 @@ public class studentfragment extends Fragment {
                 fragmentTransaction.commit();
             }
         });
- ImageView activeStd = view.findViewById(R.id.activeStd);
+ ImageView activeStd = view.findViewById(R.id.activeManager);
 
         activeStd.setOnClickListener(new View.OnClickListener() {
             @Override

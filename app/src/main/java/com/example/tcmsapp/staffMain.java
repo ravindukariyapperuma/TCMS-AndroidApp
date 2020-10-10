@@ -1,6 +1,5 @@
 package com.example.tcmsapp;
 
-import android.media.Image;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -36,7 +35,7 @@ public class staffMain extends Fragment {
                 fragmentTransaction.commit();
             }
         });
-        ImageView staffsalary = view.findViewById(R.id.staffsalary);
+        ImageView staffsalary = view.findViewById(R.id.activeManager);
         staffsalary.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
